@@ -23,6 +23,7 @@ public class Ejecutor {
 		        .reduce((s1,s2) -> s1 + "#" + s2);
 
 		reduced.ifPresent(System.out::println);
+		System.out.println("que pasa 2");
 	}
 
 
