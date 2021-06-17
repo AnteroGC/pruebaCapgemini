@@ -21,8 +21,9 @@ public class Ejecutor {
 		memberNames.add("Lokesh");
 		Optional<String> reduced = memberNames.stream()
 		        .reduce((s1,s2) -> s1 + "#" + s2);
-		 
+
 		reduced.ifPresent(System.out::println);
 	}
+
 
 }
